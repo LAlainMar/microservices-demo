@@ -6,6 +6,21 @@
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
 web-based e-commerce app where users can browse items, add them to the cart, and purchase them.
 
+Manifest Order:
+1. frontend.yaml
+2. Ingress.yaml
+3. ad-servce.yaml
+4. currency-service.yaml
+5. cart-srvice.yaml
+6. redis-cart.yaml
+7. load-generator.yaml
+8. recommended-service.yaml
+9. checkout-service.yaml
+10. email-service.yaaml
+11. payment-service.yaml
+12. shipping-service.yaml
+13. catalog-service.yaml
+
 Google uses this application to demonstrate how developers can modernize enterprise applications using Google Cloud products, including: [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine), [Cloud Service Mesh (CSM)](https://cloud.google.com/service-mesh), [gRPC](https://grpc.io/), [Cloud Operations](https://cloud.google.com/products/operations), [Spanner](https://cloud.google.com/spanner), [Memorystore](https://cloud.google.com/memorystore), [AlloyDB](https://cloud.google.com/alloydb), and [Gemini](https://ai.google.dev/). This application works on any Kubernetes cluster.
 
 If you’re using this demo, please **★Star** this repository to show your interest!
