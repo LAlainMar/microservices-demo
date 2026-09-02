@@ -5,7 +5,7 @@ metadata:
   name: onlineboutique-ingress
   annotations:
     kubernetes.io/ingress.class: alb
-    alb.ingress.kubernetes.io/scheme: int0ernet-facing # Lo hace público a internet
+    alb.ingress.kubernetes.io/scheme: internet-facing # Lo hace público a internet
     alb.ingress.kubernetes.io/target-type: ip # Envía el tráfico directo a los Pods (más rápido)
     alb.ingress.kubernetes.io/healthcheck-path: /_healthz # El ALB verificará que el frontend responda
 spec:
